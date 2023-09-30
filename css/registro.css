@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Ubuntu:wght@700&display=swap');
+
+* {
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+.area-registro {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #130222;
+    border-radius: 10px;
+    width: 355px;
+    height: 360px;
+    padding: 35px;
+}
+
+.registro form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.registro input {
+    margin-top: 12px;
+    background-color: #453156;
+    color: aliceblue;
+    border: none;
+    height: 44px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+
+input::placeholder {
+    color: aliceblue;
+}
+
+form [type="submit"] {
+    display: block;
+    background-color: #8D39D5;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    color: aliceblue;
+    font-size: 13px;
+    margin: 6px;
+}
+
+a {
+    color: #8D39D5;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+#registrar:hover {
+    background-color: aliceblue;
+    color: #130222;
+    transition: 1.5s;
+}
+
+#entrar-conta:hover {
+    color: #8D39D5;
+    transition: 0.7;
+}
+
+.registro img {
+    width: 60px;
+    height: auto;
+}

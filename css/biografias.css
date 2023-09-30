@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+h1 {
+    font-size: 32px;
+    color: #4A235A;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.content {
+    display: flex;
+    justify-content: left;
+    margin-left: 80px;
+    align-items: center;
+    align-content: center;
+    width: 50vw;
+    height: 50vh;
+}
+
+.card {
+    background: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.mediaCard {
+    background: url(../img/oprah\ aa.webp) center/cover;
+    height: 250px;
+    width: 400px; 
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: #4A235A;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.title {
+    color: #4A235A;
+    margin-top: 10px;
+}
+
+.actions:hover {
+    color: purple;
+    transform: 1.2s;
+}
+
+
+
+
+
+
+
+
